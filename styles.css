@@ -1,13 +1,14 @@
 html {
-  background: url(./images/indexBkrndImg.jpg) no-repeat center center fixed;
+  background: url(./images/indexBkrndImg.jpg) no-repeat center center fixed !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Poiret One', cursive;
+
 }
 body {
 	padding-top:70px;
+
 }
 
 @media (max-width: 2000px) {
