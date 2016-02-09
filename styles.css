@@ -1,17 +1,17 @@
 html {
-  background: url(./images/indexBkrndImg.jpg) no-repeat center center fixed !important;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 
 }
 body {
 	padding-top:70px;
-
+  background: url(./images/indexBkrndImg.jpg) no-repeat center center fixed !important;
+  background-image:url('../images/bg.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 2000px;) {
     .navbar-header {
         float: none;
     }
@@ -51,5 +51,12 @@ body {
 
 section {
   height: 500px;
+  background-color:rgba(0, 0, 0, 0.1);
+
+}
+
+#section2 {
+  height: 500px;
+  background-color:rgba(150, 133, 023, 0.9);
 
 }
