@@ -1,10 +1,6 @@
-html {
 
-
-}
 body {
 	padding-top:70px;
-  background: url(./images/indexBkrndImg.jpg) no-repeat center center fixed !important;
   background-image:url('../images/bg.png');
   background-repeat:no-repeat;
   background-size:contain;
@@ -55,8 +51,21 @@ section {
 
 }
 
-#section2 {
-  height: 500px;
-  background-color:rgba(150, 133, 023, 0.9);
+#section1 {
+	background: url(../images/indexBkrndImg.jpg) no-repeat center center fixed !important;
+	background-size: cover;
 
+}
+
+#section2 {
+  background-color:rgba(150, 133, 023, 0.9);
+}
+
+
+.content {
+    width:100%;
+		height: 500px;
+    position:relative;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.2);
 }
